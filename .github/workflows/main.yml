@@ -26,5 +26,5 @@ jobs:
     - name: Run a multi-line script
       run: |
         echo Starting the CI process,
-        gradle test deploy
+        gradle build
         echo Finishing the test step.
